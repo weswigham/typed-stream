@@ -1,4 +1,4 @@
-typed-stream
+typed-stream [![Build Status](https://travis-ci.org/weswigham/typed-stream.svg)](https://travis-ci.org/weswigham/typed-stream)
 ============
 
 TypeScript typings for the core stream library
