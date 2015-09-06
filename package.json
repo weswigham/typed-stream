@@ -1,0 +1,29 @@
+{
+  "name": "typed-stream",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core stream library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-stream.git"
+  },
+  "keywords": [
+    "typescript",
+    "stream",
+    "typed",
+    "module",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-stream/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-stream#readme",
+  "dependencies": {
+    "typed-events": "1.0.0"
+  }
+}
