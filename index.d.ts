@@ -1,4 +1,5 @@
 import * as events from "typed-events";
+import "typed-node";
 
 export interface Stream extends events.EventEmitter {
 	pipe<T extends WritableStream>(destination: T, options?: { end?: boolean; }): T;

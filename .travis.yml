@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+- node
+- iojs
+deploy:
+  provider: npm
+  email: wwigham@gmail.com
+  api_key:
+    secure: UrZeBj5+b5tnzO7w/SPYawV3WPagxvku3nnyPkYH3CW/PI2e5AHtFZlZoKFJg/zWS0As0zp6EkrfW6A92B2tZLgVejAU8ScuR65ijyQZU2OnQ5rBew0P9UuDEBBSHqmyBiBRa8MoSwzPUbrv/3D0TXAVn6fvu3PUJIITWnFWftfnQnLhHO7iJF51O2LsBf2uDCha/TbgexCk10SmfX2PNGcl5suKpMi1dRBv+MxdmPKwrZ+DlWpdlgVNPLuTrhr150pTp5OmjojCiekSBZhSVvMFYPj4mHpIKauqSjFGnEHvSAHaNzSiLHecKJ0Qq2Q+5582CsIhhx2CkAS5qn+QZP7vQxSf9akXd63Ah+j0EVnfSFR6wLOS4GEPFGnUXftZHjOjyAoMTgBW0lgkFssMKDmM6/NBoVVbnYhYoOK7bxRkyDma60RaM5OcGA5m4KNve8ItUZmrIzvcVXWwBTwQbn79+1WfiGOF32Va65H1qtdo97MaI6pXUMLRR0mQNjJSgC/MW1k4Bx9TuCEeOpg/eueHwC2MaObM/Xed0ttje8HRnh148lr/XnEPAHo1dDpEpIQnea4dwcJRym/Nk73Sd8PpYrpLsrMv8Ufdf75IMXoF2Ql2D12970R2vhjVbNmd8rjYuJzFZMoTaQ1yq6MOB9J8ZoR19//oGvKWi0LvkWE=
+  on:
+    tags: true
+    repo: weswigham/typed-stream
